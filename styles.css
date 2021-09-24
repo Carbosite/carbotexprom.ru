@@ -1,4 +1,14 @@
+@font-face {
+	font-family: 'Conv_19255';
+	src: url('fonts/19255.eot');
+	src: local('☺'), url('fonts/19255.woff') format('woff'), url('fonts/19255.ttf') format('truetype'), url('fonts/19255.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 .globalcontainer {display: flex; flex-flow: column; align-content: center; flex-basis: 100%;}
-.companyname {text-align: center; color: navy; font-size: 220%; font-family: Arial, Helvetica, sans-serif;}
-.thewarning {text-align: center; color: red; font-size: 170%}
-.email {text-align: center; color: rgb(24, 22, 22); font-size: 170%}
+.companyname {text-align: center; color: black; font-size: 180%; font-family: Arial, Helvetica, sans-serif;}
+.namefont {text-align: center; color: black; font-size: 300%; font-family: 'Conv_19255'}
+.thewarning {text-align: center; color: red; font-size: 170%; font-family: Arial, Helvetica, sans-serif;}
+.email {text-align: center; color: rgb(24, 22, 22); font-size: 170%; font-family: Arial, Helvetica, sans-serif;}
